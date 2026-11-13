@@ -1,6 +1,6 @@
 {
   "name": "dsh-bs-focus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Activity-focused session list for DeepSeek Harness with project grouping, status colors, and unread markers.",
   "type": "module",
   "license": "MIT",

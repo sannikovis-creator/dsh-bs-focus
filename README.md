@@ -6,6 +6,8 @@
 
 **Фокус сессий** — отдельный компактный режим списка сессий для DeepSeek Harness. Плагин не изменяет штатные режимы списка и позволяет в любой момент вернуться к ним.
 
+![Режим «Фокус» со сгруппированными сессиями, метками проектов и подсветкой состояния](docs/focus-sessions.png)
+
 ### Возможности
 
 - фильтрация сессий по активности: 3 часа, 6 часов, 1 день, 3 дня или все;
@@ -52,6 +54,8 @@ dsh plugin --profile web add dsh-bs-focus@latest
 ## English
 
 **Session focus** adds a separate compact, activity-oriented session browser to DeepSeek Harness without modifying the built-in list modes.
+
+![Focus mode with grouped sessions, project labels, and a highlighted active session](docs/focus-sessions.png)
 
 ### Features
 
