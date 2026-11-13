@@ -1,0 +1,67 @@
+{
+  "name": "dsh-bs-focus",
+  "version": "1.0.0",
+  "description": "Activity-focused session list for DeepSeek Harness with project grouping, status colors, and unread markers.",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Ivan Sannikov",
+    "email": "ivan.sannikov@business-systemy.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sannikovis-creator/dsh-bs-focus.git"
+  },
+  "homepage": "https://github.com/sannikovis-creator/dsh-bs-focus#readme",
+  "bugs": {
+    "url": "https://github.com/sannikovis-creator/dsh-bs-focus/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "sessions",
+    "sidebar",
+    "workspace",
+    "productivity"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.2"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "client.source.js",
+    "focus-core.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-ui-context-menu",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "node --test focus-core.test.js"
+  }
+}

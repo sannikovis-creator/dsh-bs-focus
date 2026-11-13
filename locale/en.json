@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Session focus",
+    "description": "A compact activity-oriented session list with period filters, newest-first project ordering, colored Workspace labels, live status colors, and unread completion markers. Open it with Focus in the sidebar footer.",
+    "detail": "docs/DETAIL.md"
+  }
+}

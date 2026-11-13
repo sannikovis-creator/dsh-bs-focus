@@ -1,0 +1,4 @@
+node_modules/
+*.tgz
+pack-dry-run.json
+.DS_Store
