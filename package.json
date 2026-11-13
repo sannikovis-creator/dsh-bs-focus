@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sannikovis-creator/dsh-bs-focus.git"
+    "url": "git+https://github.com/sannikovis-creator/dsh-bs-focus.git"
   },
   "homepage": "https://github.com/sannikovis-creator/dsh-bs-focus#readme",
   "bugs": {
